@@ -1,0 +1,113 @@
+ .main-div{
+    width: 500px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 500px;
+   
+} 
+.heading{
+    color: rgb(255, 105, 155);
+    margin-left: 150px;
+}
+
+.box {
+    width: 200px;
+    margin-bottom: 20px;
+    border: 2px solid green;
+    overflow: hidden;
+    cursor: pointer;
+  }
+.label{
+    color:black;
+    
+}
+.lable-caption{
+    margin-top: 0%;
+    margin-left: 20px;
+    color:black
+}
+.text1{
+    color: black;
+    margin-left: 150px;
+}
+.discount{
+  color: black;
+  width: auto;
+  background-color: pink;
+  margin-left: 10px;
+  margin-top: 0%;
+}
+.erased-text{
+  color: grey;
+  margin-left: 160px;
+  text-decoration: line-through;
+}
+.erased-text2{
+  color: gray;
+  margin-left: 280px;
+  margin-top: 0%;
+  text-decoration: line-through;
+}
+.erased-text3{
+  color: gray;
+  margin-left: 280px;
+  margin-top: 0%;
+  text-decoration: line-through;
+}
+.box-content-lable{
+  color: black;
+  
+}
+  .collapsed {
+    width: 400px;
+
+  }
+
+  .expanded {
+    width: 400px;
+    height: 200px;
+    border-color: rgb(243, 61, 122);
+    background-color: rgb(254, 239, 241);
+  }
+
+  .content {
+    padding: 20px;
+    color: white;
+  }
+
+  .box-content {
+    display: none;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.expanded .box-content {
+    display: block;
+}
+
+.collapsed .box-content {
+    display: none;
+}
+.box-content p {
+  color: black;
+}
+.box-content tr{
+  color: black;
+}
+.box-content label{
+  color: black;
+}
+.btn{
+  width: 405px;
+  height: 50px;
+  background-color:rgb(232, 128, 163);
+  cursor: pointer;
+}
+.bottom-text {
+  font-weight: bold;
+  font-size: 16px;
+  color: #f2a0a0;
+}
+.total-price{
+  margin-left: 180px;
+}
